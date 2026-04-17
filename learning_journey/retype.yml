@@ -1,0 +1,58 @@
+input: .
+output: .retype
+url: # Add your website URL here
+branding:
+  title: LLM Mastery
+  label: 12-Week
+links:
+  - text: GitHub
+    link: https://github.com
+    target: blank
+footer:
+  copyright: "&copy; {{ year }} LLM Foundations Learning Journey. All rights reserved."
+  links:
+    - text: License
+      link: LICENSE.md
+    - text: About
+      link: README.md
+favicon: static/favicon.ico
+
+# Organize the navigation
+order:
+  - README.md
+  - week1_foundations
+  - week2_tokenization
+  - week3_training
+  - week4_optimization
+  - week5_scale
+  - week6_distributed
+  - week7_advanced_architecture
+  - week8_normalization
+  - week9_training_recipes
+  - week10_rlhf
+  - LICENSE.md
+
+# Sidebar configuration
+sidebar:
+  - label: "🚀 Getting Started"
+    link: README.md
+  - label: "📚 Week 1: Foundations"
+    link: week1_foundations/README.md
+  - label: "📚 Week 2: Tokenization"
+    link: week2_tokenization/README.md
+  - label: "📚 Week 3: Training"
+    link: week3_training/README.md
+  - label: "📚 Week 4: Optimization"
+    link: week4_optimization/README.md
+  - label: "📚 Week 5: Scale"
+    link: week5_scale/README.md
+  - label: "📚 Week 6: Distributed"
+    link: week6_distributed/README.md
+  - label: "📚 Week 7: Advanced Arch"
+    link: week7_advanced_architecture/README.md
+  - label: "📚 Week 8: Normalization"
+    link: week8_normalization/README.md
+  - label: "📚 Week 9: Recipes"
+    link: week9_training_recipes/README.md
+  - label: "📚 Week 10: RLHF/DPO"
+    link: week10_rlhf/README.md
